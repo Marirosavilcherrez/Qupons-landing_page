@@ -1,0 +1,33 @@
+@import url("../../index.css");
+
+.slider {
+    margin-top: 6.5rem;
+}
+
+.banner-computadora {
+    border-radius: 0;
+}
+
+
+.banner-tablets-celulares {
+    display: none;
+    border-radius: 0;
+}
+
+@media only screen and (max-width: 768px){
+
+    .banner-computadora {
+        display: none;
+        border-radius: 0;
+    }
+
+    .banner-tablets-celulares {
+        display: block;
+        border-radius: 0;
+    }
+
+    .slider {
+        margin-top: 5.6rem;
+    }
+
+}
